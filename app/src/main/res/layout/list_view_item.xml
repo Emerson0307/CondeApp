@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/ContainerAnunciar"
+        android:orientation="vertical"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconeImagem"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:src="@drawable/ic_inserir_image" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textNomeProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trufas Mágicas"
+                android:textColor="@color/darkgreen"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="169dp" />
+
+            <TextView
+                android:id="@+id/textNomeEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alan Nascimento"
+                android:textAlignment="center"
+                android:textColor="@color/darkgreen"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="47dp"
+                tools:layout_editor_absoluteY="202dp" />
+
+            <TextView
+                android:id="@+id/textProdutoServico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Produto/Serviço"
+                android:textColor="@color/darkgreen"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="61dp"
+                tools:layout_editor_absoluteY="226dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
